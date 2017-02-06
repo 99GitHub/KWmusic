@@ -1,0 +1,166 @@
+li{
+	display: inline-block;
+	list-style: none;
+}
+.head_top{
+	width: 1000px;
+	margin: 0 auto;
+}
+.head_top img{
+	float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.head_top ul{
+	float: right;
+	margin-top: 10px;
+	margin-right: 53px;
+} 
+.head_top li{
+	margin: 0 20px;
+}
+.head_top h2{
+	display: inline-block;
+	padding-bottom:5px ;
+	font-size: 18px;
+	font-weight: normal;
+}
+.head_top h2 a{
+	color: #319cda;	
+}
+.head_top h2 a:hover{
+	text-decoration: underline;
+}
+.head_top p{
+	border-top: 1px solid #bce1f4;
+	font-size: 14px;
+	padding: 5px 0 3px;
+}
+.head_top p a{
+	margin-right: 9px;
+    display: inline-block;
+    padding: 5px 0 3px;
+	color: #2f2f2f;
+}
+.head_top p a:hover{
+	color: #319cda;
+	text-decoration: underline;
+}
+.head_top i{
+	background-image: url(../img/books/icon2.png);
+	vertical-align: middle;
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+}
+.head_top_icon2{
+	background-position: 0 -36px;
+}
+.head_top_icon3{
+	background-position: 0 -72px;
+}
+.head_top_icon4{
+	background-position: 0 -108px;
+}
+.head_top_icon5{
+	background-position: 0 -180px;
+}
+.head_top .music:hover .head_top_icon1{
+	background-position: 0 -1000px;
+}
+.head_top .music:hover .head_top_icon2{
+	background-position: 0 -1036px;
+}
+.head_top .singer:hover .head_top_icon2{
+	background-position: 0 -1036px;
+}
+.head_top .image:hover .head_top_icon3{
+	background-position: 0 -1072px;
+}
+.head_top .active:hover .head_top_icon4{
+	background-position: 0 -1108px;
+}
+.head_top .download:hover .head_top_icon5{
+	background-position: 0 -1180px;
+}
+
+.menu{
+	height: 33px;
+	background: #1093d7;
+	line-height: 33px;
+	margin-top: 5px;
+}
+.menu ul{
+	margin-left: 290px;
+}
+.menu li{
+	padding: 0 19px;
+	font-size: 14px;
+    color: #fff;
+}
+.menu li:hover{
+	background: #55c5ff;
+}
+.menu li a{
+    font-size: 14px;
+    color: #fff;
+}
+.content{
+	position: relative;
+	width: 1200px;
+	height: 2533px;
+	margin: 0 auto;
+	background: url(../img/books/background.jpg) no-repeat;
+}
+.content a:nth-child(1){
+	position: absolute;
+	top: 226px;
+	left: 823px;
+	display: inline-block;
+    width: 247px;
+    height: 55px;
+    border-radius: 25px;
+    background-image: url(../img/books/androidBtn11.png); 
+}
+.content a:nth-child(1):hover{
+	background-image: url(../img/books/androidBtn12.png); 
+}
+.content a:nth-child(2){
+	position: absolute;
+	top: 313px;
+	left: 823px;
+	display: inline-block;
+    width: 247px;
+    height: 55px;
+    border-radius: 25px; 
+    background-image: url(../img/books/iosBtn11.png); 
+}
+.content a:nth-child(2):hover{
+	background-image: url(../img/books/iosBtn12.png); 
+}
+.content a:nth-child(4){
+	position: absolute;
+	bottom: 161px;
+	left: 642px;
+	display: inline-block;
+    width: 309px;
+    height: 89px;
+    border-radius: 5px; 
+    background-image: url(../img/books/iosBtn21.png); 
+}
+.content a:nth-child(4):hover{
+	background-image: url(../img/books/iosBtn22.png); 
+}
+.content a:nth-child(3){
+	position: absolute;
+	bottom: 161px;
+    left: 244px;
+	display: inline-block;
+    width: 309px;
+    height: 89px;
+    border-radius: 5px; 
+    background-image: url(../img/books/androidBtn21.png); 
+}
+.content a:nth-child(3):hover{
+	background-image: url(../img/books/androidBtn22.png); 
+}

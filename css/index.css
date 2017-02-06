@@ -1,0 +1,229 @@
+#li a{
+	color: #FECA2E;
+}
+#bg_login{
+	height: 2978px;
+}
+iframe{
+	border: 0;
+}
+.part_1{
+	height: 400px;
+    background: #f2f2f2;
+    text-align: center;
+}
+.part_1 img{
+	margin: 40px 25px;
+}
+.songs_list{
+	width: 1225px;
+	margin: 0 auto;
+}
+.songs_list li{
+	position: relative;
+	margin-right: 20px;
+}
+.songs_list span{
+	margin-left: 1105px;
+	font-size: 12px;
+	color: #999;
+}
+.songs_list h2{
+    color: #333;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.songs_list li img{
+	width: 220px;
+	height: 220px;
+}
+.songs_list li i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-bottom: 8px;
+	background: url(../img/index/navigation_bar/icon.png) no-repeat -230px -44px;
+}
+.songs_list li a{
+	color: #000;
+}
+.songs_list li p{
+	position: relative;
+	top: -20px;
+	font-size: 16px;
+}
+.songs_list div a{
+	position: absolute;
+	bottom: 0;
+	display: inline-block;
+	width: 30px;
+    height: 30px;
+    background: url(../img/index/navigation_bar/icon.png) -242px -163px;
+    vertical-align: middle;
+	margin-left: 112px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+.songs_list li div{
+	position: relative;
+	top: -30px;
+	color: #fff;
+}
+.singers{
+	position: relative;
+	width: 1225px;
+	margin: 0 auto;
+}
+.singers span{
+	margin-left: 1105px;
+	font-size: 12px;
+	color: #999;
+}
+.singers h3{
+    color: #333;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.singers li{
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 22px;
+}
+.singers li span{
+	margin: 0;
+	color: #fff;
+}
+.singers li .infoSplice{
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+    width: 100%;
+    height: 85px;
+    background: #000;
+	opacity: 0.7;
+}
+.singers li .info{
+	position: absolute;
+	bottom: 0;
+	z-index: 20;
+	display: block;
+}
+.singers .info p{
+	font-size: 12px;
+    margin: 5px 0;
+    margin-left: 15px;
+    color: #fff;
+    }
+.singers .num{
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+.singers .num .like{
+	margin-left:20px ;
+}  
+.singers .num .share i{
+	position: relative;
+	top: -3px;
+	display: inline-block;
+	height: 18px;  
+    background: url(../img/index/navigation_bar/icon.png) no-repeat -105px 3px;   
+}
+ .num .like i{
+ 	position: relative;
+	top: -4px;
+	display: inline-block;
+	height: 18px;  
+    background: url(../img/index/navigation_bar/icon.png) no-repeat -230px 4px;   
+}
+.singers li .songListSplice{
+	position: absolute;
+    bottom: 0;
+    z-index: 30;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #000;
+	opacity: 0.7;
+}
+.singers li .songList h2{
+	float: left;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin: 10px 0;
+    margin-left: 15px;
+    display: inline;
+}
+.singers li .songList .more{
+    float: right;
+    font-weight: 500;
+    margin: 19px 12px 0 0;
+    display: inline;
+}
+.singers li .songList{
+	position: absolute;
+	bottom: 0;
+	z-index: 40;
+	display: none;
+	width: 100%;
+    height: 100%;
+}
+.singers .songList ul li{
+	margin: 4.5px 0;
+}
+.singers .songList ul li span{
+	margin-left: 15px;
+	vertical-align: top;
+}
+.singers .songList ul li a{
+	width: 180px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.singers .songList ul li a:hover{
+	text-decoration: underline;
+}
+.singers .songList a.playAllSong {
+    display: inline-block;
+    width: 180px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin: 13px 0;
+    margin-left: 16px;
+}
+.flink{
+	width: 1225px;
+	margin: 0 auto;
+}
+.flink .flinker_cor{
+	margin: 0;
+	font-size: 16px;
+    color: #4c454c;
+}
+.flink .flinker_qq{
+    font-size: 13px;
+    color: #4c454c;
+    margin-left: 1000px;
+}
+.flink .flinks a{
+	display: inline-block;
+	font-size: 13px;
+    line-height: 30px;
+    margin-right: 9px;
+    color: #1c67ac;
+}
+.flink .flinks{
+	margin: 6px 0;
+}
+.flink .flinks a:hover{
+	text-decoration: underline;
+}

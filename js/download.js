@@ -1,0 +1,18 @@
+//不同终端下载选择
+$(document).ready(function(){
+	$(".pc").mouseover(function(){
+		$("#bg").addClass("bg_a");
+		$("#bg").removeClass("bg_b");
+		$("#bg").removeClass("bg_c");
+	})
+	$(".phone").mouseover(function(){
+		$("#bg").addClass("bg_b");
+		$("#bg").removeClass("bg_a");
+		$("#bg").removeClass("bg_c");
+	})
+	$(".pad").mouseover(function(){
+		$("#bg").addClass("bg_c");
+		$("#bg").removeClass("bg_b");
+		$("#bg").removeClass("bg_a");
+	})
+})

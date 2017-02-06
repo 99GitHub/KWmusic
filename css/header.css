@@ -1,0 +1,321 @@
+body{
+	width: 1920px;
+}
+.top{
+	position: relative;
+	height: 50px;
+    background: #181818;
+}
+ul{
+	display: inline-block;
+}
+li{
+	display: inline-block;
+}
+img{
+	vertical-align: middle;
+}
+a{
+	color: #fff;
+}
+i{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	/*border: 1px solid red;*/
+	vertical-align: middle;
+	margin-right:3px ;
+}
+.top{
+	text-align: center;
+}
+.bar_left li{
+	display: inline;
+	margin: 11px 0 0 50px;
+	font-size: 18px;	
+}
+.bar_right li{
+	opacity: 0.8;
+}
+.bar_right li,span{
+	display: inline;
+	margin-left: 20px;
+	font-size: 14px;	
+}
+.icon_1{
+	background: url(../img/index/navigation_bar/icon.png) no-repeat ;	
+	background-position: -231px -27px;
+}
+.icon_2{
+	background: url(../img/index/navigation_bar/earphone.png) no-repeat ;	
+}
+.icon_3{
+	background: url(../img/index/navigation_bar/vip.png) no-repeat ;	
+}
+.icon_4{
+	background: url(../img/index/navigation_bar/icon.png) no-repeat ;	
+	background-position: -106px -26px;
+}
+.icon_0{
+	background: url(../img/index/navigation_bar/loginUp.png) no-repeat ;	
+	background-position: 3px 2px;
+	margin-left: 20px;
+}
+.link_login:hover .icon_0{
+	background: url(../img/index/navigation_bar/loginDown.png) no-repeat ;	
+	background-position: 3px 2px;
+	margin-left: 20px;
+}
+.icon0_hover{
+	background: url(../img/index/navigation_bar/loginDown.png) no-repeat ;	
+	background-position: 3px 2px;
+	margin-left: 20px;
+}
+.search{
+	position: relative;
+	top:8px;
+	display: inline-block;
+	width: 192px;
+	height: 25px;
+	background: url(../img/index/navigation_bar/searchBoxBg.png) no-repeat ;
+	font-size: 0;
+}
+.search input{
+	position: relative;
+	top:-8px;
+	background: url(../img/index/navigation_bar/searchBoxBg.png) no-repeat ;
+	width: 135px;	
+	height: 25px;
+}
+.search a{
+	position: relative;
+	display: inline-block;
+	background: url(../img/index/navigation_bar/searchBoxBg.png) no-repeat ;
+	background-position: -150px;
+	margin: 0;
+	width: 30px;	
+	height: 25px;
+}
+.more_service{
+	position: absolute;
+	top: 50px;
+	left: 64%;
+	display: inline-block;
+	width: 110px;
+	height: 184px;
+	background-color: rgba(0,0,0,0.8);
+}
+.more_service a{
+	top: 8px;
+	display: block;
+	width: 90px;
+	padding: 5px 0;
+	padding-left: 20px;	opacity: 1;
+	color: darkgrey;
+	
+}
+.more_service a:hover{
+	color: #FFF;
+	background: #000;
+}
+.login{
+	position: absolute;
+	top: 50px;
+	left: 68.5%;
+	display: inline-block;
+	width: 158px;
+	height: 153px;
+	background:rgba(0,0,0,0.8);
+	opacity: 1;
+}
+.login ul{
+	margin-top: 15px;
+}
+.login ul li{
+	display: block;
+}
+.login a{
+	display: inline-block;
+	padding: 6px 0;
+	margin-left: 15px;
+	font-size: 14px;
+	color: #fff;
+}
+.login i{
+	display: inline-block;
+	/*border: 1px solid red;*/
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
+.login hr{
+	position: relative;
+	left: 10px;
+	width: 115px;
+	opacity: 0.2;
+}
+.icon_L1{
+	background: url(../img/index/navigation_bar/loginIcon.png) no-repeat;
+	background-position: -133px -10px;
+}
+.icon_L2{
+	background: url(../img/index/navigation_bar/loginIcon.png) no-repeat;
+	background-position: -189px -10px;
+}
+.icon_L3{
+	background: url(../img/index/navigation_bar/loginIcon.png) no-repeat;
+	background-position: -47px -10px;
+}
+.login a:hover{
+	color: #feca2e;
+}	
+.link_login1:hover .icon_L1{
+	background: url(../img/index/navigation_bar/loginIcon.png) no-repeat;
+	background-position: -133px -53px;
+}
+.link_login2:hover .icon_L2{
+	background: url(../img/index/navigation_bar/loginIcon.png) no-repeat;
+	background-position: -189px -53px;
+}
+.link_login3:hover .icon_L3{
+	background: url(../img/index/navigation_bar/loginIcon.png) no-repeat;
+	background-position: -47px -53px;
+}
+
+.KWlogin{
+	width: 100%;
+	height: 100%;
+}
+.background{
+	position: absolute;
+	top: 0;
+	z-index: 40;
+	display: inline-block;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+.inside_KW{
+	position: fixed;
+	top: 15%;
+    left: 35%;
+	z-index: 60;
+	display: inline-block;
+	background-color: #fff;
+	/*border: 2px solid black;*/
+	border-radius: 10px;
+	width: 570px;
+	height: 400px;
+}
+.inside_KW p{
+	display: inline-block;
+	width: 520px;
+    padding: 20px 0;
+    margin-left: 30px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: 400;
+}
+.inside_KW span{
+	display: inline-block;
+	color: #000;
+}
+.kw_left{
+	float: left;
+	margin-top:10px ;
+	padding-right: 30px;
+	border-right: 1px solid #ddd;
+}
+.kw_left input{
+	margin: 0 0 20px 30px;
+	width: 230px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 0 9px;
+}
+.kw_left .change_color{
+	border-color: #a9d3fc;
+}
+.kw_left a{
+	margin-left:50px ;
+	color: #000;
+}
+.kw_left i{
+	display: inline-block;
+	margin-left:30px;
+	width: 15px;
+	height: 15px;
+	background: url(../img/index/checkedBoxBg.jpg) no-repeat; 
+	cursor: pointer;
+}
+.kw_left h3{
+	display: inline-block;
+	margin: 15px 30px;
+	color: #000;
+	font-weight: 400;
+}
+.kw_left span{
+	margin: 20px 0;
+}
+#log{
+	display: inline-block;
+	margin-left: 30px;
+	width: 250px;
+    height: 40px;
+    line-height: 40px;
+    background: #f0aa00;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20px;
+}
+.kw_rigth{
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.kw_rigth h3{
+	display: inline-block;
+	margin: 15px 0;
+	color: #000;
+	font-weight: 400;
+}
+.sina,.QQ{
+	display: inline-block;
+	width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-bottom:20px ;
+    border-radius: 20px;
+}
+
+.rudio{
+	display: inline-block;
+	margin-left:30px;
+	width: 15px;
+	height: 15px;
+	background: url(../img/index/checkBoxBg.jpg) no-repeat; 
+	cursor: pointer;
+}
+.close{
+	position: relative;
+	left: 470px;
+	cursor: pointer;
+}
+
+#header_part{
+	position: relative;
+	z-index: 1;
+}
+.offi{
+	background: url(../img/index/checkBoxBg.jpg);
+}

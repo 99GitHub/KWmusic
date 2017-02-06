@@ -1,0 +1,287 @@
+#li a{
+	color: #FECA2E;
+}
+#bg_login{
+	height: 1300px;
+}
+.singer_content{
+	width: 1200px;
+	margin: 60px auto;
+}
+.singer_top{
+	height: 248px;
+	margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+.part_5buttons{
+	float: left;
+	margin-left: 40px;
+}
+.singer_top h1{
+	font-size: 28px;
+    color: #333;
+    font-weight: 500;
+}
+.singer_top img{
+	float: left;
+}
+.singer_top li{
+	font-size: 18px;
+    width: 52px;
+    height: 158px;
+    margin: 50px 100px 0  0;
+    text-align: center;
+    cursor: pointer;
+}
+.on{
+	background: url(http://image.kuwo.cn/website/pc/artist/clicked.jpg) no-repeat center bottom;
+}
+.singer_top li i{
+	display: inline-block;
+    height: 48px;
+    width: 48px;
+    margin-bottom:20px ;
+  /*  border: 1px solid #000;*/
+    background-image: url(../img/singer/amuse/icon.png);
+}
+.singer_top li:nth-child(1) i{
+	background-position: -70px 0;	
+}
+.singer_top li:nth-child(3) i{
+	background-position: -139px 0;	
+}
+.singer_top li:nth-child(4) i{
+	background-position: -293px 0;	
+}
+.singer_top li:nth-child(5) i{
+	background-position: -216px 0;	
+}
+.singer_top li:nth-child(1) a{
+	color: #fb676d;
+}
+.singer_top li:nth-child(2) a{
+	color: #f39105;
+}
+.singer_top li:nth-child(3) a{
+	color: #6f98bd;
+}
+.singer_top li:nth-child(4) a{
+	color: #6da3a4;
+}
+.singer_top li:nth-child(5) a{
+	color: #9e62a8;
+}
+.singer_left{
+	float: left;
+	width: 900px;
+	margin-left:20px ;
+	margin-top: 20px;
+}
+.singer_text{
+	display: inline-block;
+}
+.singer_text h2{
+	font-size: 22px;
+	padding-left: 25px;
+	margin-bottom:20px;
+	border-left: 5px solid #fb676d;;
+}
+.singer_text table{
+	margin: 35px 0;
+}
+.singer_text table tr:nth-child(odd){
+	background: rgb(242, 242, 246);
+}
+.singer_text table tr td {
+	font-size: 12px;
+    color: #999;
+    width: 455px;
+    text-indent: 20px;
+    line-height: 40px;
+}
+.singer_text p{
+	font-size: 14px;
+    color: #999; 
+    line-height: 35px;
+}
+.singer_songs{
+	display: none;
+	margin-bottom: 20px;
+}
+.singer_songs .songControll a:nth-child(1){
+	font-size: 0;
+	background: url(../img/singer/amuse/icon.png) no-repeat;
+	background-position: -228px -207px;
+    margin-right: 10px;
+	width: 113px;
+    height: 32px;
+    display: inline-block;
+}
+.singer_songs .songControll a:nth-child(2){
+	font-size: 0;
+	background: url(../img/singer/amuse/icon.png) no-repeat;
+	width: 100px;
+    background-position: -241px -242px;
+    margin-right: 10px;
+    height: 32px;
+    display: inline-block;
+}
+.singer_songs .songControll a:nth-child(3){
+	font-size: 0;
+	background: url(../img/singer/amuse/icon.png) no-repeat;
+	width: 80px;
+    background-position: -261px -174px;
+    height: 32px;
+    display: inline-block;
+}
+.singer_songs table tr:nth-child(even){
+	background: rgb(242, 242, 246);
+}
+.singer_songs table{
+	margin-top: 20px;
+	margin-bottom: 300px;
+}
+.singer_songs table tr td {
+	font-size: 12px;
+    color: #999;
+    width: 455px;
+    text-indent: 20px;
+    line-height: 40px;
+}
+.singer_songs .page{
+	margin-left: 300px;
+}
+.singer_songs .page a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+	line-height:30px ;
+	color: #333;
+	background-color:rgb(242, 242, 246);
+}
+#aon{
+	background-color: #f39105;
+}
+.singer_songs td a{
+	display: inline-block;
+	width: 13px;
+	height: 14px;
+	/*border: 1px solid #000;*/
+	margin: 14px 15px 0 0;
+}
+.singer_songs td a:nth-child(1){
+	background: url(../img/singer/amuse/icon.png) 0 -229px;
+	}
+.singer_songs td a:nth-child(2){
+	background: url(../img/singer/amuse/icon.png) -13px -228px;;
+	}
+.singer_songs td a:nth-child(3){
+	background: url(../img/singer/songs/icon.png) -51px 0px;
+	}
+.singer_songs td a:nth-child(4){
+	background: url(../img/singer/songs/icon.png) -69px 0;
+	}
+.singer_collection{
+	display: none;
+	margin-top: 20px;
+}	
+.singer_collection img{
+	width: 210px;
+	height: 210px;	
+}	
+.singer_collection li{
+	width: 210px;
+	height: 280px;
+	margin-left:12px ;
+}
+.singer_collection a{
+	display: inline-block;
+	font-size: 14px;
+	color: #333;
+	margin: 6px 0;
+}
+.singer_collection span{
+	font-size: 14px;
+	margin: 0;
+    margin-bottom: 17px;
+    color: #999;
+}
+.singer_mv{
+	display: none;
+}	
+.singer_mv p,.singer_mv a{
+	font-size: 18px;
+	color: #666;
+	margin: 0 10px;
+	margin-bottom: 25px;
+}
+.singer_mv img{
+	width: 200px;
+	height: 109px;
+	margin-right: 22px;
+}
+.singer_mv li a{
+	margin: 5px 0;
+	display: block;
+	color: #333;
+	font-size:14px ;
+}
+#newon{
+	color:  #f39105;
+}
+.singer_right{
+	float: right;
+	margin-right: 30px;
+	width: 210px;
+}
+.singer_right span{
+	margin-left:5px ;
+	font-size: 18px;
+    font-weight: 500;
+    color: #666;
+    line-height: 36px;
+}
+.like_singer p span{
+	font-size: 12px;
+    margin-left: 10px;
+    width: 55px;
+    display: inline-block;
+    text-align: center;
+}
+.singer_right img{
+	width: 55px;
+	height: 55px;
+	margin-left: 10px;
+}
+.singer_right p{
+	width: 210px;
+	margin-top: 5px;
+    color: #666;
+}
+.singer_right a{
+	color: #999;
+}
+.singer_right ul{
+	margin-top:20px ;
+}
+.singer_right li{
+	margin: 2px ;
+	text-align: center;
+}
+.singer_right i{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/singer/amuse/icon.png);
+}
+.singer_right .ip{
+	background-position: -140px -142px;
+}
+.singer_right .pc{
+	background-position: -71px -142px;
+}
+.singer_right .andro{
+	background-position: 0 -142px;
+}

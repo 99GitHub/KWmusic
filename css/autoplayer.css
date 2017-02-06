@@ -1,0 +1,138 @@
+#wrapper{
+	position: relative;
+	width: 1920px;
+	height: 750px;
+	}   
+#banner{
+	position:relative;
+	width: 1920px;
+	height: 750px;
+	overflow: hidden;
+	}   
+.imgList{
+	position:relative;
+	width:19200px;
+	height:750px;
+	z-index: 10;
+	font-size: 0;
+	overflow: hidden;
+	}   
+.imgList li{
+	display: inline-block;
+	} 
+.player_right,.player_left{
+	position: absolute;
+	top:250px;
+	z-index: 30;
+	display: inline-block;
+	width: 80px;
+	height: 220px;
+	background: url(../img/index/player/leftright.png) no-repeat;
+}
+.player_left{
+	left: 6px;
+}
+.player_right{
+	right: 6px;
+}
+#prev,#next{
+	position: relative;
+	top: 85px;
+	left: 27px;
+	z-index: 35;
+	cursor: pointer;
+	opacity: 0.5;
+	}    
+#prev:hover,#next:hover{
+	opacity: 1;
+	}   
+.bg{
+	position: absolute;
+	bottom: 0;
+	width: 1920px;
+	height: 750px;
+	z-index:11;
+	opacity: 0.4;
+	background: #000;
+	}  
+.bg_center{
+	position: absolute;
+	top: 0;
+	width: 1920px;
+	height: 750px;
+	z-index: 20;
+	overflow: hidden;
+}
+.infoList{
+	position:relative;
+	width:19200px;
+	height: 740px;
+	z-index: 25;
+	font-size: 0;
+	overflow: hidden;
+	} 
+.infoList li{
+	position: relative;
+	display: inline-block;
+	width:1920px;
+	height: 750px;
+	color: #FFFFFF;
+	text-align: center;
+	}    
+.infoList h1{
+	position: relative;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.infoList p{
+	font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.infoList .download{
+	position: relative;
+	top: 80px;
+	right: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    color: #fff;
+    background: url(../img/index/player/bannerDown1.png);
+    text-align: center;
+    line-height: 80px;
+    font-size: 34px;    
+}
+.infoList .small{
+	height: 160px;
+}
+.infoList .small a{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.infoList .small a:hover{
+	opacity: 1;
+}
+.infoList a:hover{
+	color: #ffcd2d;
+	background: url(../img/index/player/bannerDown2.png);
+}
+.indexList{
+	position: absolute;
+	bottom: 35px;
+	z-index: 50;
+	width: 1920px;
+	text-align: center;
+	}   
+.indexList li{
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    background: url(../img/index/navigation_bar/icon.png) -105px -45px;
+    margin-right: 20px;
+	cursor: pointer;
+	}   
+.indexList .indexOn{
+	background: url(../img/index/navigation_bar/icon.png) -127px -45px;
+	}  
